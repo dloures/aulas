@@ -1,0 +1,19 @@
+.altura {
+    height: 300px;
+    display: inline-block;
+}
+
+.verde {
+    width: 25%;
+    background-color: green;
+}
+
+.azul {
+    width: 58.33%;
+    background-color: blue;
+}
+
+.amarelo {
+    width: 16.66%;
+    background-color: yellow;
+}

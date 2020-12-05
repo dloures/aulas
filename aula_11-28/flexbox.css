@@ -1,0 +1,25 @@
+.container {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*align-content: stretch;*/
+    /*alinhamento das colunas*/
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    /* utilizado para cor da fonte */
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.item1 {
+    align-self: flex-end;
+}

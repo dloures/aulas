@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>body {
+        background-color: pink;
+        font-family: sans-serif;
+        text-align: center;
+    } 
+    </style>
+</head>
+<body>
+    <h1 align="center">CV - Danilo Loures</h1>
+    
+    <form action="" method="post">
+        <input type="text" name="email" id="email" required placeholder="seuemail@email.com.br">
+        <input type="password" name="senha" id="senha" required>
+        <h3>Estado Civil</h3>
+        <label for="divorciado">Divorciado</label>
+        <input type="radio" name="estado_civil" id="divorciado" value="Divorciado">
+        <label for="viuvo">Viúvo</label>
+        <input type="radio" name="estado_civil" id="viuvo" value="Viúvo">
+        <label for="solteiro">Solteiro</label>
+        <input type="radio" name="estado_civil" id="solteiro" value="Solteiro">
+        <label for="casado">Casado</label>
+        <input type="radio" name="estado_civil" id="casado" value="Casado">
+        <h3>Hobbies</h3>
+        <label for="surf">Surf</label>
+        <input type="checkbox" name="hobbies" id="surf" value="Surf">
+        <label for="musica">Música</label>
+        <input type="checkbox" name="hobbies" id="musica" value="Música">
+        <br>
+        <h3>País</h3>
+        <select name="pais" id="pais">
+        <option value="">Escolha:</option>
+        <optgroup label="América do Sul">            
+            <option value="Ar">Argentina</option>
+            <option value="Br">Brasil</option>
+            <option value="Co">Colômbia</option>
+        </optgroup>
+        <optgroup label="Europa">
+            <option value="Be">Bélgica</option>
+            <option value="Es">Espanha</option>
+            <option value="Pt">Portugal</option>
+        </optgroup>
+        </select>
+        <br><br>
+        <textarea name="mensagem" rows="10" cols="150" style="resize:none"></textarea>
+        <br><br>
+        <button type="reset">Limpar</button>
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: salmon;
+}
+
+a:hover {
+    background: gray;
+    color: white;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    /*  border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+    border-collapse: separate;
+    border-spacing: 15px 15px;
+}

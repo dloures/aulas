@@ -1,0 +1,24 @@
+.verde{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.azul{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    display: inline-block;
+    position: absolute; /*leva em consuderação a posição do pai (body)*/
+    z-index: 2; /* serve para colocar em ordem de aparencia*/
+
+.vermelho{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+}

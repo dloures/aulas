@@ -1,0 +1,27 @@
+body {
+    background-color: #529CB9;
+    font-family: sans-serif;
+    text-align: justify;
+}
+h1{
+    background-color: rosybrown;
+}
+
+textarea{
+    resize: none;
+}
+
+.quadrado {
+    background-color: #529CB9;
+    width: 250px;
+    height: 130px;
+    text-align: justify;
+
+    padding: 20px;
+    
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
